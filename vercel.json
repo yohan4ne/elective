@@ -17,6 +17,6 @@
       "dest": "/api/index.php"
     }
   ],
-  "buildCommand": "sh vercel-build.sh",
+  "buildCommand": "composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader && npm install --production --omit=dev && npm run build",
   "outputDirectory": "public"
 }
