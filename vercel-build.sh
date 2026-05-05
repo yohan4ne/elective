@@ -2,10 +2,10 @@
 set -e
 
 echo "🔨 Installing Composer dependencies..."
-composer install --no-dev --prefer-dist
+composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
 
 echo "📦 Installing npm dependencies..."
-npm install --production
+npm install --production --omit=dev
 
 echo "🏗️ Building frontend assets..."
 npm run build
