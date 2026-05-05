@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/index.php": {
-      "runtime": "now-php@1.0.0",
+      "runtime": "now-php@0.5.0",
       "memory": 1800,
       "maxDuration": 30
     }
