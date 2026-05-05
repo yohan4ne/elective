@@ -17,6 +17,6 @@
       "dest": "/api/index.php"
     }
   ],
-  "buildCommand": "bash vercel-build.sh",
+  "buildCommand": "sh vercel-build.sh",
   "outputDirectory": "public"
 }
